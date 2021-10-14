@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="16" total="26" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="96210" started-at="2021-10-08T11:19:45Z" finished-at="2021-10-08T11:21:21Z">
+    <groups>
+      <group name="regressiontest">
+        <method signature="EmailOutputBoxEnableOrNotTest.EmailOutputBoxEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@7791a895]" name="EmailOutputBoxEnableOrNot" class="com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest"/>
+        <method signature="RefranceBoxIsEnableOrNotTest.RefranceBoxIsEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@3a5ed7a6]" name="RefranceBoxIsEnableOrNot" class="com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest"/>
+        <method signature="EmailOutputBoxEnableOrNotTest.EmailOutputBoxEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@3224f60b]" name="EmailOutputBoxEnableOrNot" class="com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest"/>
+        <method signature="RefranceBoxIsEnableOrNotTest.RefranceBoxIsEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@63e2203c]" name="RefranceBoxIsEnableOrNot" class="com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest"/>
+      </group> <!-- regressiontest -->
+      <group name="smoketest">
+        <method signature="CreateContactTest.CreateContact()[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@67b92f0a]" name="CreateContact" class="com.crm.autodesk.tests.CreateContactTest"/>
+        <method signature="DoNotCallBoxEnableOrNotTest.DoNotCallBoxEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@1d16f93d]" name="DoNotCallBoxEnableOrNot" class="com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest"/>
+        <method signature="NotifyOwnerBoxIsEnableOrNotTest.NotifyOwnerBoxIsEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@6325a3ee]" name="NotifyOwnerBoxIsEnableOrNot" class="com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest"/>
+        <method signature="CreateContactTest.CreateContact()[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@72b6cbcc]" name="CreateContact" class="com.crm.autodesk.tests.CreateContactTest"/>
+        <method signature="DoNotCallBoxEnableOrNotTest.DoNotCallBoxEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@6737fd8f]" name="DoNotCallBoxEnableOrNot" class="com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest"/>
+        <method signature="NotifyOwnerBoxIsEnableOrNotTest.NotifyOwnerBoxIsEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@1efed156]" name="NotifyOwnerBoxIsEnableOrNot" class="com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest"/>
+      </group> <!-- smoketest -->
+    </groups>
+    <test name="Testrunner-chrome" duration-ms="94658" started-at="2021-10-08T11:19:45Z" finished-at="2021-10-08T11:21:20Z">
+      <class name="com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest">
+        <test-method status="PASS" signature="launcbrowser(java.lang.String)[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@3a5ed7a6]" name="launcbrowser" is-config="true" duration-ms="2715" started-at="2021-10-08T11:20:05Z" finished-at="2021-10-08T11:20:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcbrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@3a5ed7a6]" name="loginToApp" is-config="true" duration-ms="3172" started-at="2021-10-08T11:20:08Z" finished-at="2021-10-08T11:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="RefranceBoxIsEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@3a5ed7a6]" name="RefranceBoxIsEnableOrNot" duration-ms="10276" started-at="2021-10-08T11:20:11Z" finished-at="2021-10-08T11:20:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefranceBoxIsEnableOrNot -->
+        <test-method status="PASS" signature="logoutfromapp()[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@3a5ed7a6]" name="logoutfromapp" is-config="true" duration-ms="1009" started-at="2021-10-08T11:20:21Z" finished-at="2021-10-08T11:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@3a5ed7a6]" name="closeBrowser" is-config="true" duration-ms="56" started-at="2021-10-08T11:20:22Z" finished-at="2021-10-08T11:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest -->
+      <class name="com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest">
+        <test-method status="PASS" signature="launcbrowser(java.lang.String)[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@7791a895]" name="launcbrowser" is-config="true" duration-ms="4807" started-at="2021-10-08T11:19:45Z" finished-at="2021-10-08T11:19:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcbrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@7791a895]" name="loginToApp" is-config="true" duration-ms="5455" started-at="2021-10-08T11:19:50Z" finished-at="2021-10-08T11:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="EmailOutputBoxEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@7791a895]" name="EmailOutputBoxEnableOrNot" duration-ms="8307" started-at="2021-10-08T11:19:55Z" finished-at="2021-10-08T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailOutputBoxEnableOrNot -->
+        <test-method status="PASS" signature="logoutfromapp()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@7791a895]" name="logoutfromapp" is-config="true" duration-ms="974" started-at="2021-10-08T11:20:04Z" finished-at="2021-10-08T11:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@7791a895]" name="closeBrowser" is-config="true" duration-ms="49" started-at="2021-10-08T11:20:05Z" finished-at="2021-10-08T11:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest -->
+      <class name="com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest">
+        <test-method status="PASS" signature="launcbrowser(java.lang.String)[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@6325a3ee]" name="launcbrowser" is-config="true" duration-ms="3360" started-at="2021-10-08T11:20:22Z" finished-at="2021-10-08T11:20:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcbrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@6325a3ee]" name="loginToApp" is-config="true" duration-ms="4027" started-at="2021-10-08T11:20:25Z" finished-at="2021-10-08T11:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="NotifyOwnerBoxIsEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@6325a3ee]" name="NotifyOwnerBoxIsEnableOrNot" duration-ms="11000" started-at="2021-10-08T11:20:29Z" finished-at="2021-10-08T11:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NotifyOwnerBoxIsEnableOrNot -->
+        <test-method status="PASS" signature="logoutfromapp()[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@6325a3ee]" name="logoutfromapp" is-config="true" duration-ms="935" started-at="2021-10-08T11:20:40Z" finished-at="2021-10-08T11:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@6325a3ee]" name="closeBrowser" is-config="true" duration-ms="46" started-at="2021-10-08T11:20:41Z" finished-at="2021-10-08T11:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest -->
+      <class name="com.crm.autodesk.tests.CreateContactTest">
+        <test-method status="PASS" signature="launcbrowser(java.lang.String)[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@67b92f0a]" name="launcbrowser" is-config="true" duration-ms="3207" started-at="2021-10-08T11:20:56Z" finished-at="2021-10-08T11:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcbrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@67b92f0a]" name="loginToApp" is-config="true" duration-ms="2075" started-at="2021-10-08T11:20:59Z" finished-at="2021-10-08T11:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="CreateContact()[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@67b92f0a]" name="CreateContact" duration-ms="12487" started-at="2021-10-08T11:21:01Z" finished-at="2021-10-08T11:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method status="PASS" signature="logoutfromapp()[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@67b92f0a]" name="logoutfromapp" is-config="true" duration-ms="6440" started-at="2021-10-08T11:21:13Z" finished-at="2021-10-08T11:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@67b92f0a]" name="closeBrowser" is-config="true" duration-ms="27" started-at="2021-10-08T11:21:20Z" finished-at="2021-10-08T11:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.autodesk.tests.CreateContactTest -->
+      <class name="com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest">
+        <test-method status="PASS" signature="launcbrowser(java.lang.String)[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@1d16f93d]" name="launcbrowser" is-config="true" duration-ms="3290" started-at="2021-10-08T11:20:41Z" finished-at="2021-10-08T11:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcbrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@1d16f93d]" name="loginToApp" is-config="true" duration-ms="1908" started-at="2021-10-08T11:20:45Z" finished-at="2021-10-08T11:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="DoNotCallBoxEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@1d16f93d]" name="DoNotCallBoxEnableOrNot" duration-ms="7685" started-at="2021-10-08T11:20:47Z" finished-at="2021-10-08T11:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoNotCallBoxEnableOrNot -->
+        <test-method status="PASS" signature="logoutfromapp()[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@1d16f93d]" name="logoutfromapp" is-config="true" duration-ms="1124" started-at="2021-10-08T11:20:54Z" finished-at="2021-10-08T11:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@1d16f93d]" name="closeBrowser" is-config="true" duration-ms="211" started-at="2021-10-08T11:20:55Z" finished-at="2021-10-08T11:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest -->
+    </test> <!-- Testrunner-chrome -->
+    <test name="Testrunner-firefox" duration-ms="96210" started-at="2021-10-08T11:19:45Z" finished-at="2021-10-08T11:21:21Z">
+      <class name="com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest">
+        <test-method status="PASS" signature="launcbrowser(java.lang.String)[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@63e2203c]" name="launcbrowser" is-config="true" duration-ms="6175" started-at="2021-10-08T11:20:07Z" finished-at="2021-10-08T11:20:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcbrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@63e2203c]" name="loginToApp" is-config="true" duration-ms="1713" started-at="2021-10-08T11:20:14Z" finished-at="2021-10-08T11:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="RefranceBoxIsEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@63e2203c]" name="RefranceBoxIsEnableOrNot" duration-ms="8276" started-at="2021-10-08T11:20:15Z" finished-at="2021-10-08T11:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefranceBoxIsEnableOrNot -->
+        <test-method status="PASS" signature="logoutfromapp()[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@63e2203c]" name="logoutfromapp" is-config="true" duration-ms="1291" started-at="2021-10-08T11:20:24Z" finished-at="2021-10-08T11:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest@63e2203c]" name="closeBrowser" is-config="true" duration-ms="1192" started-at="2021-10-08T11:20:25Z" finished-at="2021-10-08T11:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest -->
+      <class name="com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest">
+        <test-method status="PASS" signature="coonectDb()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@3224f60b]" name="coonectDb" is-config="true" duration-ms="10" started-at="2021-10-08T11:19:45Z" finished-at="2021-10-08T11:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coonectDb -->
+        <test-method status="PASS" signature="launcbrowser(java.lang.String)[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@3224f60b]" name="launcbrowser" is-config="true" duration-ms="9281" started-at="2021-10-08T11:19:45Z" finished-at="2021-10-08T11:19:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcbrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@3224f60b]" name="loginToApp" is-config="true" duration-ms="2081" started-at="2021-10-08T11:19:54Z" finished-at="2021-10-08T11:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="EmailOutputBoxEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@3224f60b]" name="EmailOutputBoxEnableOrNot" duration-ms="7474" started-at="2021-10-08T11:19:57Z" finished-at="2021-10-08T11:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailOutputBoxEnableOrNot -->
+        <test-method status="PASS" signature="logoutfromapp()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@3224f60b]" name="logoutfromapp" is-config="true" duration-ms="946" started-at="2021-10-08T11:20:04Z" finished-at="2021-10-08T11:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@3224f60b]" name="closeBrowser" is-config="true" duration-ms="2501" started-at="2021-10-08T11:20:05Z" finished-at="2021-10-08T11:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeDB()[pri:0, instance:com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest@3224f60b]" name="closeDB" is-config="true" duration-ms="0" started-at="2021-10-08T11:21:21Z" finished-at="2021-10-08T11:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest -->
+      <class name="com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest">
+        <test-method status="PASS" signature="launcbrowser(java.lang.String)[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@1efed156]" name="launcbrowser" is-config="true" duration-ms="6294" started-at="2021-10-08T11:20:26Z" finished-at="2021-10-08T11:20:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcbrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@1efed156]" name="loginToApp" is-config="true" duration-ms="2015" started-at="2021-10-08T11:20:32Z" finished-at="2021-10-08T11:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="NotifyOwnerBoxIsEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@1efed156]" name="NotifyOwnerBoxIsEnableOrNot" duration-ms="7453" started-at="2021-10-08T11:20:34Z" finished-at="2021-10-08T11:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NotifyOwnerBoxIsEnableOrNot -->
+        <test-method status="FAIL" signature="logoutfromapp()[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@1efed156]" name="logoutfromapp" is-config="true" duration-ms="20334" started-at="2021-10-08T11:20:42Z" finished-at="2021-10-08T11:21:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: Sign Out
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-EJOGMS5', ip: '172.16.16.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 22188, moz:profile: C:\Users\adran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4c23091b-ef3f-4404-a941-f3e8195aa98f
+*** Element info: {Using=link text, value=Sign Out}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: Sign Out
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-EJOGMS5', ip: '172.16.16.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 22188, moz:profile: C:\Users\adran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4c23091b-ef3f-4404-a941-f3e8195aa98f
+*** Element info: {Using=link text, value=Sign Out}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.click(Unknown Source)
+at com.vtiger.autodesk.pomreposiratorylib.Home.logout(Home.java:54)
+at com.crm.vtiger.genericutility.BaseClass.logoutfromapp(BaseClass.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest@1efed156]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-10-08T11:21:02Z" finished-at="2021-10-08T11:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest -->
+      <class name="com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest">
+        <test-method status="FAIL" signature="launcbrowser(java.lang.String)[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@6737fd8f]" name="launcbrowser" is-config="true" duration-ms="9984" started-at="2021-10-08T11:21:02Z" finished-at="2021-10-08T11:21:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-EJOGMS5', ip: '172.16.16.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-EJOGMS5', ip: '172.16.16.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at com.crm.vtiger.genericutility.BaseClass.launcbrowser(BaseClass.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcbrowser -->
+        <test-method status="SKIP" signature="loginToApp()[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@6737fd8f]" name="loginToApp" is-config="true" duration-ms="0" started-at="2021-10-08T11:21:12Z" finished-at="2021-10-08T11:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="SKIP" signature="logoutfromapp()[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@6737fd8f]" name="logoutfromapp" is-config="true" duration-ms="0" started-at="2021-10-08T11:21:12Z" finished-at="2021-10-08T11:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method status="SKIP" signature="DoNotCallBoxEnableOrNot()[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@6737fd8f]" name="DoNotCallBoxEnableOrNot" duration-ms="0" started-at="2021-10-08T11:21:12Z" finished-at="2021-10-08T11:21:12Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-EJOGMS5', ip: '172.16.16.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-EJOGMS5', ip: '172.16.16.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at com.crm.vtiger.genericutility.BaseClass.launcbrowser(BaseClass.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoNotCallBoxEnableOrNot -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest@6737fd8f]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-10-08T11:21:12Z" finished-at="2021-10-08T11:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest -->
+      <class name="com.crm.autodesk.tests.CreateContactTest">
+        <test-method status="FAIL" signature="launcbrowser(java.lang.String)[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@72b6cbcc]" name="launcbrowser" is-config="true" duration-ms="9172" started-at="2021-10-08T11:21:12Z" finished-at="2021-10-08T11:21:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-EJOGMS5', ip: '172.16.16.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-EJOGMS5', ip: '172.16.16.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at com.crm.vtiger.genericutility.BaseClass.launcbrowser(BaseClass.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcbrowser -->
+        <test-method status="SKIP" signature="loginToApp()[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@72b6cbcc]" name="loginToApp" is-config="true" duration-ms="0" started-at="2021-10-08T11:21:21Z" finished-at="2021-10-08T11:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="SKIP" signature="CreateContact()[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@72b6cbcc]" name="CreateContact" duration-ms="0" started-at="2021-10-08T11:21:21Z" finished-at="2021-10-08T11:21:21Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-EJOGMS5', ip: '172.16.16.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-EJOGMS5', ip: '172.16.16.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at com.crm.vtiger.genericutility.BaseClass.launcbrowser(BaseClass.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method status="SKIP" signature="logoutfromapp()[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@72b6cbcc]" name="logoutfromapp" is-config="true" duration-ms="0" started-at="2021-10-08T11:21:21Z" finished-at="2021-10-08T11:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromapp -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.tests.CreateContactTest@72b6cbcc]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-10-08T11:21:21Z" finished-at="2021-10-08T11:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.autodesk.tests.CreateContactTest -->
+    </test> <!-- Testrunner-firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

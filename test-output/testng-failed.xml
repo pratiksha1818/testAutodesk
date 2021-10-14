@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Testrunner-firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="DoNotCallBoxEnableOrNot"/>
+          <include name="launcbrowser"/>
+          <include name="coonectDb"/>
+          <include name="closeDB"/>
+          <include name="logoutfromapp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest -->
+      <class name="com.crm.autodesk.tests.CreateContactTest">
+        <methods>
+          <include name="CreateContact"/>
+          <include name="loginToApp"/>
+          <include name="launcbrowser"/>
+          <include name="coonectDb"/>
+          <include name="closeDB"/>
+          <include name="logoutfromapp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.tests.CreateContactTest -->
+    </classes>
+  </test> <!-- Testrunner-firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

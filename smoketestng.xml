@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+  <run>
+     <include name="smoketest"></include>
+  </run>
+  </groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest"/>
+      <class name="com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest"/>
+      <class name="com.crm.autodesk.tests.CreateContactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

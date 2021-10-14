@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests">
+  <test name="Testrunner1">
+    <classes>
+      <class name="com.crm.autodesk.tests.EmailOutputBoxEnableOrNotTest"/>
+       </classes>
+       </test>
+       
+        <test name="Testrunner2">
+        <classes>
+      <class name="com.crm.autodesk.tests.RefranceBoxIsEnableOrNotTest"/>
+        </classes>
+      </test>
+      
+      <test name="Testrunner3">
+       <classes>
+      <class name="com.crm.autodesk.tests.NotifyOwnerBoxIsEnableOrNotTest"/>
+      </classes>
+      </test>
+      
+      <test name="Testrunner4">
+      <classes>
+      <class name="com.crm.autodesk.tests.DoNotCallBoxEnableOrNotTest"/>
+      </classes>
+      </test>
+      <test name="Testrunner5">
+      <classes>
+      <class name="com.crm.autodesk.tests.CreateContactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+
+
+
+
+
+
